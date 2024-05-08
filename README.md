@@ -1,1 +1,1 @@
-# crewai-agent
+# ollama-agent
