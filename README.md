@@ -19,7 +19,7 @@ download [ollama](https://github.com/ollama/ollama)
 - if needed `pip install -U llama-index`
 
 Note! `CTRL+D to close ollama terminal`
-
+Run   `python main.py`
 Problems ?
 # make sure the LLM is listening
 `pip install llama-index qdrant_client torch transformers` `pip install llama-index-llms-ollama`
