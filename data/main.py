@@ -1,6 +1,8 @@
 from llama_index.llms.ollama import Ollama
+from llama_parse import LlamaParse
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, PromptTemplate
 
-llm = Ollama(model="llama2", request_timeout=60.0)
+llm = Ollama(model="mistral", request_timeout=30.0)
 
-response = llm.complete("What is the capital of France?")
-print(response)
+result = llm.complete("Hello world")
+print(result)
