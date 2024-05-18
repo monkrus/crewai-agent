@@ -18,8 +18,12 @@ download [ollama](https://github.com/ollama/ollama)
 - and `ollama run mistral` (4GB)
 - if needed `pip install -U llama-index`
 
-Note! `CTRL+D to close ollama terminal`
-Run   `python main.py`
+Note! 
+`CTRL+D to close ollama terminal`
+
 Problems ?
-# make sure the LLM is listening
+ - make sure the LLM is listening
 `pip install llama-index qdrant_client torch transformers` `pip install llama-index-llms-ollama`
+- didnt download codellama `ollama pull codellama`
+- timeout error
+set request_timeout to 500.
