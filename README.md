@@ -25,5 +25,4 @@ Problems ?
  - make sure the LLM is listening
 `pip install llama-index qdrant_client torch transformers` `pip install llama-index-llms-ollama`
 - didnt download codellama `ollama pull codellama`
-- timeout error
-set request_timeout to 500.
+- timeout error --> set request_timeout to 500.
